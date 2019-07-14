@@ -1,0 +1,18 @@
+.nav {
+    display: flex;
+    flex-direction: row;
+
+    height: 100vh;
+}
+
+.nav-inner {
+    display: flex;
+    flex-direction: column;
+    background-color: #990000;
+}
+
+.nav-outer {
+    display: flex;
+    flex-direction: column;
+    background-color: #EDEBEB
+}

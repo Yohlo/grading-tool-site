@@ -1,0 +1,8 @@
+.bp3-tab:focus {
+    outline: none !important;
+}
+
+.bp3-tab {
+    font-size: 1rem !important;
+    font-weight: bold;
+}

@@ -1,0 +1,33 @@
+.menu {
+    margin-right: 7.5vw !important;
+    width: fit-content;
+}
+
+.menu .bp3-menu {
+  overflow: hidden !important;
+}
+
+.footer {
+  color: #c0c0c0;
+  font-size: .65rem;
+  text-align: left;
+  padding: 0;
+  margin: 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #990000;
+}
+
+.footer a:hover {
+  text-decoration: none;
+  color: #990000;
+}
+
+@media only screen and (max-width: 600px) {
+    .menu {
+      max-width: 260px;
+      margin: 0 auto;
+    }
+  }

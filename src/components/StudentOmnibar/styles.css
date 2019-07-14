@@ -1,0 +1,25 @@
+.bp3-omnibar {
+    filter: blur(0);
+    opacity: 1;
+    top: 20vh;
+    left: calc(50% - 250px);
+    z-index: 21;
+    border-radius: 3px;
+    -webkit-box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
+    box-shadow: 0 0 0 1px rgba(16,22,26,.1), 0 4px 8px rgba(16,22,26,.2), 0 18px 46px 6px rgba(16,22,26,.2);
+    background-color: #fff;
+    width: 500px;
+}
+
+.bp3-omnibar .bp3-menu:empty {
+    display: none;
+}
+
+.omni-click {
+    display: inline-block;
+}
+
+.bp3-key-combo {
+    float: right;
+    margin-left: 5px;
+}
